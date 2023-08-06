@@ -11,5 +11,11 @@ console.log(typeof country);
 console.log(typeof age);
 console.log(typeof isIndependent);
 console.log(typeof student);
-console.log(typeof num);
+console.log(typeof num); //array could not checked by this method
+console.log(Array.isArray(num)); //array should checked by this method
 console.log(typeof sum);
+
+const friends=[12, 15, 12, 13 , 14];
+const allfriends=friends.concat(num);
+console.log(allfriends);
+

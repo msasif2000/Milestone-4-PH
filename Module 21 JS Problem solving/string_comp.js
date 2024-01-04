@@ -19,6 +19,5 @@ console.log(lyrics.startsWith('amar'));
 //endsWith
 const filename='bio.pdf';
 const otherfile='pic.png';
-filename.endsWith('.pdf');
 console.log(filename.endsWith('.pdf'));
 

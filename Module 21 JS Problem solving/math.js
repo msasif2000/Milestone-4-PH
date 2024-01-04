@@ -21,7 +21,6 @@ console.log(Math.floor(number));
 
 //random function
 var random=Math.round(Math.random()*100);
-
 console.log(random);
 
 //swap function
@@ -46,3 +45,23 @@ function add(a, b){
    }
    console.log(add("adam" + "eve"))
    
+
+   ///confusion about round function :
+
+//    round(4.5)
+// The number 4.5 is exactly halfway between 4 and 5.
+// round will round to the nearest even integer, so it rounds to 4.
+// round(5.5)
+
+// The number 5.5 is exactly halfway between 5 and 6.
+// round will again round to the nearest even integer, so it rounds to 6.
+// Here are some additional examples to illustrate the behavior:
+
+// round(4.1)
+
+// The number 4.1 is closer to 4 than 5.
+// round will round down to 4.
+// round(4.9)
+
+// The number 4.9 is closer to 5 than 4.
+// round will round up to 5.
